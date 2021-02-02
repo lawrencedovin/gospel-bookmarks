@@ -1,0 +1,22 @@
+{
+  "name": "gospel-bookmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass lib/sass/main.scss lib/css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrencedovin/gospel-bookmarks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawrencedovin/gospel-bookmarks/issues"
+  },
+  "homepage": "https://github.com/lawrencedovin/gospel-bookmarks#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

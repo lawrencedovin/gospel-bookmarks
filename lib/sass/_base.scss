@@ -1,0 +1,40 @@
+// COLOR VARIABLES
+$color-white: #fff;
+$color-black: #3F3F3F;
+$color-blue: #50ACDF;
+$color-dark-green: #038A21;
+$color-light-green: #07CC32;
+$color-gray: #889397;
+
+// FONT VARIABLES
+$font-primary: "Monserrat", sans-serif;
+$font-secondary: "Courgette", cursive;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px / 16 = 75em
+$bp-large: 62.5em; // 1000px / 16 = 62.5em
+$bp-medium: 50em; // 800px / 16 = 50em
+$bp-small: 37.5em; // 600px / 16 = 37.5em
+
+// FONT SIZE
+$font-size-large: 3.2rem;
+$font-size-medium: 2.4rem;
+$font-size-small: 1.6rem;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+    font-family: $font-primary;
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
+}
