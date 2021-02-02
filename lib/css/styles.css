@@ -18,12 +18,30 @@ html {
   margin: 0 8.8rem; }
 
 .nav-link {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #889397;
+  margin: auto 1.6rem; }
+
+.nav-link:hover {
+  color: #3F3F3F; }
 
 .hero-container {
-  position: relative;
-  height: 100vh;
+  height: calc(100vh - 4.6rem);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../img/christian-background.jpg); }
+  background-image: url(../img/christian-background.jpg);
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0); }
+  .hero-container__scripture {
+    font-family: "Courgette", cursive;
+    font-size: 1.5vw;
+    color: #fff;
+    position: absolute;
+    width: 25vw;
+    top: 25%;
+    right: 10%; }
+
+.mouseon {
+  color: green !important; }
