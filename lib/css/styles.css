@@ -63,10 +63,13 @@ html {
 .section-steps__current-step {
   color: #002B47; }
 
-.section-steps__current-step-icon {
+.section-steps__current-step-icon, .section-steps__icon {
   height: 4rem;
-  width: 4rem;
+  width: 4rem; }
+
+.section-steps__current-step-icon {
   border-radius: 50%;
+  display: inline-block;
   font-size: 2.4rem;
   color: #fff;
   background: #50ACDF;
@@ -74,3 +77,16 @@ html {
 
 .section-steps__title {
   color: #50ACDF; }
+
+.section-steps__icon {
+  margin: 3.2rem 0; }
+
+.section-steps__description {
+  font-size: 1.6rem;
+  color: #45555A;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section-steps__description p {
+    max-width: 32rem;
+    text-align: left; }

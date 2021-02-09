@@ -56,10 +56,15 @@
         color: $color-black;
     }
 
-    &__current-step-icon {
+    &__current-step-icon,
+    &__icon {
         height: 4rem;
         width: 4rem;
+    }
+
+    &__current-step-icon {
         border-radius: 50%;
+        display: inline-block;
         font-size: $font-size-small;
         color: $color-white;
         background: $color-blue;
@@ -68,5 +73,22 @@
 
     &__title {
         color: $color-blue;
+    }
+
+    &__icon {
+        margin: 3.2rem 0;
+    }
+
+    &__description {
+        font-size: $font-size-smallest;
+        color: $color-gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            max-width: 32rem;
+            text-align: left;
+        }
     }
 }
