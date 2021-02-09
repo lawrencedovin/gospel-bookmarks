@@ -54,20 +54,20 @@ html {
   color: #09BC10;
   margin: 8.8rem 0 5.4rem; }
 
-.section-steps__current-step, .section-steps__current-step-icon, .section-steps__title {
+.section-directions__current-step, .section-directions__current-step-icon, .section-directions__title {
   font-weight: 600; }
 
-.section-steps__current-step, .section-steps__title {
+.section-directions__current-step, .section-directions__title {
   font-size: 3.2rem; }
 
-.section-steps__current-step {
+.section-directions__current-step {
   color: #002B47; }
 
-.section-steps__current-step-icon, .section-steps__icon {
+.section-directions__current-step-icon, .section-directions__icon {
   height: 4rem;
   width: 4rem; }
 
-.section-steps__current-step-icon {
+.section-directions__current-step-icon {
   border-radius: 50%;
   display: inline-block;
   font-size: 2.4rem;
@@ -75,18 +75,18 @@ html {
   background: #50ACDF;
   margin: .5rem 0 0 1.2rem; }
 
-.section-steps__title {
+.section-directions__title {
   color: #50ACDF; }
 
-.section-steps__icon {
+.section-directions__icon {
   margin: 3.2rem 0; }
 
-.section-steps__description {
+.section-directions__description {
   font-size: 1.6rem;
   color: #45555A;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .section-steps__description p {
+  .section-directions__description p {
     max-width: 32rem;
     text-align: left; }
