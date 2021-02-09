@@ -2,8 +2,7 @@
 $color-white: #fff;
 $color-black: #3F3F3F;
 $color-blue: #50ACDF;
-$color-dark-green: #038A21;
-$color-light-green: #07CC32;
+$color-green: #09BC10;
 $color-gray: #889397;
 
 // FONT VARIABLES
@@ -17,8 +16,8 @@ $bp-medium: 50em; // 800px / 16 = 50em
 $bp-small: 37.5em; // 600px / 16 = 37.5em
 
 // FONT SIZE
-$font-size-large: 3.2rem;
-$font-size-medium: 2.4rem;
+$font-size-large: 4rem;
+$font-size-medium: 3.2rem;
 $font-size-small: 1.6rem;
 
 *,
@@ -31,10 +30,18 @@ $font-size-small: 1.6rem;
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
     font-family: $font-primary;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
 
     @media only screen and (max-width: $bp-largest) {
         font-size: 50%;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 37.5%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 25%;
     }
 }
