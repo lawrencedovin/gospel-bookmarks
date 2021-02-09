@@ -3,7 +3,7 @@
 }
 
 .nav-link {
-    font-size: $font-size-small;
+    font-size: $font-size-smallest;
     color: $color-gray;
     margin: auto 1.6rem;
 }
@@ -38,4 +38,35 @@
     font-size: $font-size-large;
     color: $color-green;
     margin: 8.8rem 0 5.4rem;
+}
+
+.section-steps {
+    &__current-step,
+    &__current-step-icon,
+    &__title {
+        font-weight: 600;
+    }
+    
+    &__current-step,
+    &__title {
+        font-size: $font-size-medium;
+    }
+
+    &__current-step {
+        color: $color-black;
+    }
+
+    &__current-step-icon {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        font-size: $font-size-small;
+        color: $color-white;
+        background: $color-blue;
+        margin: .5rem 0 0 1.2rem;
+    }
+
+    &__title {
+        color: $color-blue;
+    }
 }

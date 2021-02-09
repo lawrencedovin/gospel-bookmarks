@@ -25,11 +25,11 @@ html {
 
 .nav-link {
   font-size: 1.6rem;
-  color: #889397;
+  color: #45555A;
   margin: auto 1.6rem; }
 
 .nav-link:hover {
-  color: #3F3F3F; }
+  color: #002B47; }
 
 .hero-container {
   height: calc(100vh);
@@ -53,3 +53,24 @@ html {
   font-size: 4rem;
   color: #09BC10;
   margin: 8.8rem 0 5.4rem; }
+
+.section-steps__current-step, .section-steps__current-step-icon, .section-steps__title {
+  font-weight: 600; }
+
+.section-steps__current-step, .section-steps__title {
+  font-size: 3.2rem; }
+
+.section-steps__current-step {
+  color: #002B47; }
+
+.section-steps__current-step-icon {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  font-size: 2.4rem;
+  color: #fff;
+  background: #50ACDF;
+  margin: .5rem 0 0 1.2rem; }
+
+.section-steps__title {
+  color: #50ACDF; }
