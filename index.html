@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <!-- CSS Styles -->
     <link rel="stylesheet" href="lib/css/styles.css" />
@@ -134,6 +134,39 @@
     </div>
     <div class="row">
         <h1 class="section-title">Print</h1>
+    </div>
+    <div class="row d-flex justify-content-center section-print">
+        <div class="col-md-12 d-flex justify-content-center">
+            <img src="lib/img/bw-example-1.jpg" alt="Image of Black and White Example 1" class="section-print__image--bookmark">
+        </div>
+        <p class="col-md-12 text-center section-print__text--preview">Preview</p>
+        <form class="row">
+            <div class="form-group">
+                <label for="designSelect">Design</label>
+                <select class="form-control" id="designSelect">
+                  <option>Black and White 1</option>
+                  <option>Black and White 2</option>
+                  <option>Colored 1</option>
+                  <option>Colored 2</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sizeSelect">Size</label>
+                <select class="form-control" id="sizeSelect">
+                  <option>Small</option>
+                  <option>Large</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="languageSelect">Language</label>
+                <select class="form-control" id="languageSelect">
+                  <option>English</option>
+                  <option>Russian</option>
+                  <option>Spanish</option>
+                  <option>Tagalog</option>
+                </select>
+            </div>
+        </form> 
     </div>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

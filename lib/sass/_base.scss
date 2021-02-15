@@ -31,7 +31,6 @@ $font-size-smallest: 1.6rem;
 
 html {
     box-sizing: border-box;
-    font-family: $font-primary;
     font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
 
     @media only screen and (max-width: $bp-largest) {
@@ -45,4 +44,8 @@ html {
     @media only screen and (max-width: $bp-small) {
         font-size: 25%;
     }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }

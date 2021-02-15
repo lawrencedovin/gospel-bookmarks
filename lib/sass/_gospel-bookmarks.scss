@@ -36,6 +36,7 @@
 
 .section-title {
     font-size: $font-size-large;
+    font-weight: 600;
     color: $color-green;
     margin: 8.8rem 0 5.4rem;
 }
@@ -91,4 +92,27 @@
             text-align: left;
         }
     }
+}
+
+.section-print {
+    &__image--bookmark {
+        width: 40rem;
+    }
+
+    &__text--preview {
+        font-size: $font-size-smallest;
+        color: $color-black;
+        margin: 2rem 0 4rem;
+    }
+}
+
+.form-group,
+.form-control {
+    font-size: $font-size-smallest;
+    color: $color-black;
+    width: 20rem;
+}
+
+.form-group {
+    margin: 0 3.2rem;
 }
