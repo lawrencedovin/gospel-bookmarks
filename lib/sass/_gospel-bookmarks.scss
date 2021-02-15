@@ -102,7 +102,26 @@
     &__text--preview {
         font-size: $font-size-smallest;
         color: $color-black;
-        margin: 2rem 0 4rem;
+        margin-top: 2rem;
+    }
+
+    &__button,
+    &__button:hover,
+    &__button:active {
+        font-size: $font-size-smallest;
+        color: $color-white;
+        border: none;
+        outline: none;
+        border-radius: .4rem;
+        padding: .8rem;
+    }
+
+    &__button {
+        background: $color-blue;
+    }
+
+    &__button:hover {
+        background: $color-blue-hover;
     }
 }
 
@@ -114,5 +133,5 @@
 }
 
 .form-group {
-    margin: 0 3.2rem;
+    margin: 4rem 3.2rem 2.4rem;
 }

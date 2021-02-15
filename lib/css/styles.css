@@ -100,7 +100,21 @@ body {
 .section-print__text--preview {
   font-size: 1.6rem;
   color: #002B47;
-  margin: 2rem 0 4rem; }
+  margin-top: 2rem; }
+
+.section-print__button, .section-print__button:hover, .section-print__button:active {
+  font-size: 1.6rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: .4rem;
+  padding: .8rem; }
+
+.section-print__button {
+  background: #50ACDF; }
+
+.section-print__button:hover {
+  background: #4081a3; }
 
 .form-group,
 .form-control {
@@ -109,4 +123,4 @@ body {
   width: 20rem; }
 
 .form-group {
-  margin: 0 3.2rem; }
+  margin: 4rem 3.2rem 2.4rem; }
