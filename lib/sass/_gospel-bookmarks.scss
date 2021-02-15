@@ -37,7 +37,7 @@
 
 .section-title {
     font-size: $font-size-large;
-    font-weight: 600;
+    font-weight: 700;
     color: $color-green;
     margin: 8.8rem 0 5.4rem;
 }
@@ -46,7 +46,7 @@
     &__current-step,
     &__current-step-icon,
     &__title {
-        font-weight: 600;
+        font-weight: 700;
     }
     
     &__current-step,
@@ -70,6 +70,7 @@
         font-size: $font-size-small;
         color: $color-white;
         background: $color-blue;
+        line-height: 4rem;
         margin: .5rem 0 0 1.2rem;
     }
 
