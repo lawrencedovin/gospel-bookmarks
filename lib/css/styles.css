@@ -97,15 +97,16 @@ body {
 .section-print__image--bookmark {
   width: 40rem; }
 
+.section-print__text--preview, .section-print__button {
+  font-size: 1.6rem; }
+
 .section-print__text--preview {
-  font-size: 1.6rem;
   color: #002B47;
   margin-top: 2rem; }
 
 .section-print__button {
   background: #50ACDF; }
   .section-print__button, .section-print__button:hover, .section-print__button:active, .section-print__button:focus {
-    font-size: 1.6rem;
     color: #fff;
     border: none;
     outline: none;

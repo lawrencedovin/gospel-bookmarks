@@ -99,8 +99,12 @@
         width: 40rem;
     }
 
-    &__text--preview {
+    &__text--preview,
+    &__button {
         font-size: $font-size-smallest;
+    }
+
+    &__text--preview {
         color: $color-black;
         margin-top: 2rem;
     }
@@ -110,13 +114,13 @@
         &:hover,
         &:active,
         &:focus {
-            font-size: $font-size-smallest;
             color: $color-white;
             border: none;
             outline: none;
             border-radius: .4rem;
             padding: .8rem 1.2rem;
         }
+
         background: $color-blue;
 
         &:hover {
