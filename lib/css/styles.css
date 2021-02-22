@@ -131,6 +131,8 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   padding: 4rem; }
+  .section-usage__container {
+    padding: 0; }
 
 /* Make the image fully responsive */
 .carousel-inner img {
