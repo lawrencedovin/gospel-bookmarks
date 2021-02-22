@@ -142,13 +142,25 @@
     margin: 4rem 3.2rem 3.2rem;
 }
 
-// .section-usage{
-//     background: #FFFFFF;
-//     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-//     border-radius: 8px;
-// }
+.section-usage{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 4rem;
+}
   /* Make the image fully responsive */
   .carousel-inner img {
     width: 100%;
     height: 100%;
-  }
+    
+}
+
+.carousel {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
