@@ -164,3 +164,9 @@ body {
 .carousel-caption h1 {
   font-weight: 700;
   font-size: 3.2rem; }
+
+footer {
+  font-size: 1.2rem;
+  background: #09BC10;
+  color: #fff;
+  padding: 1.6rem; }

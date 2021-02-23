@@ -199,3 +199,10 @@
         font-size: $font-size-medium;
     }
 }
+
+footer {
+    font-size: $font-size-footer;
+    background: $color-green;
+    color: $color-white;
+    padding: 1.6rem;
+}
