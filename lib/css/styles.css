@@ -129,8 +129,8 @@ body {
 .section-usage {
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-  padding: 4rem; }
+  border-radius: 2px;
+  padding: 2.4rem; }
   .section-usage__container {
     padding: 0; }
 
@@ -140,7 +140,7 @@ body {
   height: 100%; }
 
 .carousel {
-  border-radius: 8px;
+  border-radius: 2px;
   overflow: hidden; }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
