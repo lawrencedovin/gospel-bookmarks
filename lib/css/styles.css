@@ -33,6 +33,9 @@ body {
 .nav-link:hover {
   color: #09BC10; }
 
+.navbar-brand > img {
+  border-radius: 2px; }
+
 .hero-container {
   height: calc(100vh);
   background-attachment: fixed;
