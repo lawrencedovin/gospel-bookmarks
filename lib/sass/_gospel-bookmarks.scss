@@ -2,18 +2,20 @@
     margin: 0 8.8rem;
 }
 
-.nav-link {
+.navbar {
+    padding-right: 10.4rem;
+    padding-left: 10.4rem;
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
     font-size: $font-size-smallest;
-    color: $color-white;
+    color: $color-black;
     margin: auto 1.6rem;
-}
 
-.nav-link:hover {
-    color: $color-green;
-}
-
-.navbar-brand > img {
-    border-radius: 2px;
+    &:hover {
+        color: $color-green;
+    }
 }
 
 .hero-container {
