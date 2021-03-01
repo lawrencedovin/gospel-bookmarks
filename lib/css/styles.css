@@ -30,6 +30,9 @@ body {
   padding-right: 10.4rem;
   padding-left: 10.4rem;
   background: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .navbar .navbar-toggler {
+      font-size: 2rem; } }
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.6rem;
@@ -39,7 +42,7 @@ body {
     color: #09BC10; }
 
 .hero-container {
-  height: calc(100vh);
+  height: 100vh;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -56,6 +59,16 @@ body {
     width: 25vw;
     top: 25%;
     right: 10%; }
+  @media only screen and (max-width: 37.5em) {
+    .hero-container {
+      height: 50rem; }
+      .hero-container__scripture {
+        font-size: 3.2rem;
+        padding: 0 6rem;
+        width: auto;
+        top: 70px;
+        text-align: center;
+        right: 0; } }
 
 .section-title {
   font-size: 4rem;
