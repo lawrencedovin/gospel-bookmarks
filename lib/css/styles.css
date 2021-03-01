@@ -30,7 +30,7 @@ body {
   padding-right: 10.4rem;
   padding-left: 10.4rem;
   background: #fff; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 62.5em) {
     .navbar .navbar-toggler {
       font-size: 2rem; } }
 
@@ -59,14 +59,14 @@ body {
     width: 25vw;
     top: 25%;
     right: 10%; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 62.5em) {
     .hero-container {
       height: 50rem; }
       .hero-container__scripture {
         font-size: 3.2rem;
         padding: 0 6rem;
         width: auto;
-        top: 70px;
+        top: 40%;
         text-align: center;
         right: 0; } }
 
