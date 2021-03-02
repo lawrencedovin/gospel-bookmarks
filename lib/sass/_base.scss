@@ -52,3 +52,8 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media print {
+    body {transform: scale(.45);}
+    table {page-break-inside: avoid;}
+}

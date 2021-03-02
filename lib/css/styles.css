@@ -23,6 +23,12 @@ html {
 body {
   font-family: 'Montserrat', sans-serif; }
 
+@media print {
+  body {
+    transform: scale(0.45); }
+  table {
+    page-break-inside: avoid; } }
+
 .row {
   margin: 0 8.8rem; }
 
