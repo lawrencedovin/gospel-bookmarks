@@ -123,6 +123,12 @@
     }
 }
 
+.section-print-settings {
+    &__image {
+        width: 90rem;
+    }
+}
+
 .section-print {
     &__image--bookmark {
         width: 40rem;

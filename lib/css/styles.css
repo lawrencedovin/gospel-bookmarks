@@ -114,6 +114,9 @@ body {
     max-width: 32rem;
     text-align: left; }
 
+.section-print-settings__image {
+  width: 90rem; }
+
 .section-print__image--bookmark {
   width: 40rem; }
 
